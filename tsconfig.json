@@ -96,7 +96,7 @@
     "skipLibCheck": true, /* Skip type checking all .d.ts files. */
     "plugins": [
       {
-        "transform": "./src/transformer/sacrifie.ts"
+        "transform": "./src/transformer/addUpdatedAt.ts"
       }
     ]
   }

@@ -1,7 +1,7 @@
 import { z } from 'zod';
 import {
   meta,
-} from './dynamo-client';
+} from '../lib/dynamo-client';
 
 export enum Status {
   Confirmed = 'confirmed',
@@ -9,6 +9,7 @@ export enum Status {
   Delivered = 'delivered',
 }
 
+// a sample order table without updatedAt field
 export const OrderTable = meta(
   z
     .object({

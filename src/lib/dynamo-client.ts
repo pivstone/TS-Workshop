@@ -1,3 +1,4 @@
+// a mock dynamo db client
 import { z } from 'zod';
 const metaObject = z.object({
   description: z.string().optional(),
